@@ -1,0 +1,14 @@
+# Articles
+# Add your articles below
+
+- title: "Title of Your First Article"
+  url: "https://linktothearticle.com"  # Provide a link if available
+  date: "2025-01-01"
+  journal: "Journal Name"
+  summary: "A brief summary of the article goes here."
+
+- title: "Title of Your Second Article"
+  url: "https://linktothearticle2.com"
+  date: "2024-12-15"
+  journal: "Another Journal"
+  summary: "This article covers the topic of machine learning in healthcare."

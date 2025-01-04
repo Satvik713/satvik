@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/satvik.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -194,6 +194,32 @@
       </section>
       <!-- end Interests -->
       {% endif %}
+      
+
+      {% if site.resume_section_articles %}
+        <!-- begin Articles -->
+        <section class="content-section">
+          <header class="section-header">
+            <h2>Articles</h2>
+          </header>
+
+          {% for article in site.data.articles %}
+            <div class="resume-item" itemscope itemprop="CreativeWork" itemtype="http://schema.org/CreativeWork">
+              <h3 class="resume-item-title" itemprop="name">
+                {% if article.url %}
+                  <a href="{{ article.url }}" itemprop="url">{{ article.title }}</a>
+                {% else %}
+                  {{ article.title }}
+                {% endif %}
+              </h3>
+              <h4 class="resume-item-details">{{ article.date }} &bull; {{ article.journal }}</h4>
+              <p class="resume-item-copy">{{ article.summary }}</p>
+            </div>
+          {% endfor %}
+        </section>
+        <!-- end Articles -->
+      {% endif %}
+
 
       {% if site.resume_section_links %}
       <!-- begin Links -->

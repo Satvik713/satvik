@@ -2,15 +2,22 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: LLMs for real time network traffic analysis 
+  role: Researcher
+  duration: 2023 &mdash; Present
+  url: "https://github.com/Satvik713/Net-LM"
+  description: We have created a foundational model compatible with network data. Model is trained on a huge hex-dump dataset on A100 GPUs. Currently, we are working on fine-tuning it on different datasets for bencharmarking.
+
+- project: Undergraduate Thesis 
+  duration: August, 2024 &mdash; Dec, 2024
+  url: "https://github.com/Satvik713/mbSTATS"
+  url: "https://github.com/Satvik713/mbSTATS/blob/main/Thesis_Report_Satvik_2021A8PS3047G.pdf"
+  description: I completed my undergraduate thesis on the topic of metabolomics research with machine learning. The the usage of novel deep learning algorithms wasn't possible due to the size of the dataset. While working on the analysis of GC-MS data I faced many difficulties in learning complex softwares. So (on recommendation from my advisor) I created a library called 'mbSTATS' which is a collection of all the tools and techniques required for the pre-liminary analysis of GC-MS data. The library is written in Python and is open-source. The library is currently being used by the metabolomics research group at BITS Pilani.
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: LLM optimization 
+  duration: 2023 &mdash; 
+  url: "https://github.com/Satvik713/Mistral-7B-inference-optimisation-"
+  description: Optimized the inference time of Mistral-7B model to achieve a throughput of 300 tokens/sec on a RTX 3050ti GPU with the help of model pruning and quantization.
+
+
