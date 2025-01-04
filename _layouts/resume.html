@@ -175,27 +175,6 @@
       <!-- end Associations -->
       {% endif %}
 
-      {% if site.resume_section_interests %}
-      <!-- begin Interests -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Outside Interests</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for interest in site.data.interests %}
-            <li>{{ interest.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Interests -->
-      {% endif %}
-      
-
       {% if site.resume_section_articles %}
         <!-- begin Articles -->
         <section class="content-section">
@@ -256,10 +235,57 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
+      
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+          <div class="resume-item" itemscope itemprop="CreativeWork" itemtype="http://schema.org/CreativeWork">
+            <h3 class="resume-item-title" itemprop="name">
+              {% if publication.url %}
+                <a href="{{ publication.url }}" itemprop="url">{{ publication.title }}</a>
+              {% else %}
+                {{ publication.title }}
+              {% endif %}
+            </h3>
+            <h4 class="resume-item-details">{{ publication.journal }} &bull; {{ publication.year }}</h4>
+            <p class="resume-item-copy">{{ publication.authors }}</p>
+            <p class="resume-item-copy">{{ publication.summary }}</p>
+          </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
+      {% endif %}
+
 
       <footer class="page-footer">
         <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a></p>
       </footer>
+
+      {% if site.resume_section_interests %}
+      <!-- begin Interests -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Outside Interests</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for interest in site.data.interests %}
+            <li>{{ interest.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests -->
+      {% endif %}
 
     </div>
 
