@@ -11,7 +11,6 @@
 - project: Undergraduate Thesis 
   duration: August, 2024 &mdash; Dec, 2024
   url: "https://github.com/Satvik713/mbSTATS"
-  url: "https://github.com/Satvik713/mbSTATS/blob/main/Thesis_Report_Satvik_2021A8PS3047G.pdf"
   description: I completed my undergraduate thesis on the topic of metabolomics research with machine learning. The the usage of novel deep learning algorithms wasn't possible due to the size of the dataset. While working on the analysis of GC-MS data I faced many difficulties in learning complex softwares. So (on recommendation from my advisor) I created a library called 'mbSTATS' which is a collection of all the tools and techniques required for the pre-liminary analysis of GC-MS data. The library is written in Python and is open-source. The library is currently being used by the metabolomics research group at BITS Pilani.
 
 - project: Kaggle Contributions 
@@ -30,7 +29,7 @@
   url: "https://github.com/Satvik713/OOPS-Project"
   description: This involves managing an Electronics Store model, offering a diverse range of electronic products such as air conditioners, refrigerators, televisions, washing machines, and dishwashers. I am tasked with designing and developing a comprehensive system to handle inventory management, including tracking incoming and outgoing products and updating product details with purchase and sales information.
 
-  
+
 
 
 

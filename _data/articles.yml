@@ -7,3 +7,12 @@
   summary: "Survey and Comparison of models which can be used for Computer Vision tasks. In this article, I have compared three models: a Simple CNN model, VGG16, and ViT for an image classification task."
 
 
+- title: "Thesis Report"
+  url: "https://github.com/Satvik713/mbSTATS/blob/main/Thesis_Report_Satvik_2021A8PS3047G.pdf"  # Provide a link if available
+  date: "2024-12-12"
+  summary: "My thesis report explaining the usage of machine learning algorithms in metabolomics and the creation of the data analysis library 'mbSTATS'."
+
+- title: "GSOC'24 proposal (Rejected)"
+  url: "https://github.com/Satvik713/GSOC-Proposal"  # Provide a link if available
+  date: "2024-12-12"
+  summary: "My proposal for GSOC'24 that got rejected. (A lesson for someone applying - don't apply in institutions which have more than 20 projects because only 7 or 8 projects get selected from each institution.)"

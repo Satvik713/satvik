@@ -1,3 +1,13 @@
 # Publications
 # Add your publications below
 
+# Publications
+# Add your publications below
+
+- title: "NetLM - A foundational model for network data"
+  # url: "https://doi.org/10.1234/example"
+  status: "Model training done. Currently working on fine-tuning for benchmarking and writing paper."
+  year: "2024"
+  # authors: "Satvik J., Co-author X."
+  summary: "Creating SOTA foundational model based on hierarchical transformers for network data."
+
