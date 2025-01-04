@@ -24,7 +24,7 @@
   url: "https://github.com/Satvik713/Kaggle-Submissions/blob/master/AES_v9.ipynb"
   description: Fine-tuned roberta to acheive a public score of 0.777 where the top scorer had a score of 0.82.
 
-- project: Electrnics store management (OOPS project)
+- project: Electronics store management (OOPS project)
   duration: 2023; 
   url: "https://github.com/Satvik713/OOPS-Project"
   description: This involves managing an Electronics Store model, offering a diverse range of electronic products such as air conditioners, refrigerators, televisions, washing machines, and dishwashers. I am tasked with designing and developing a comprehensive system to handle inventory management, including tracking incoming and outgoing products and updating product details with purchase and sales information.
