@@ -1,14 +1,9 @@
 # Articles
 # Add your articles below
 
-- title: "Title of Your First Article"
-  url: "https://linktothearticle.com"  # Provide a link if available
-  date: "2025-01-01"
-  journal: "Journal Name"
-  summary: "A brief summary of the article goes here."
+- title: "Timeline of Computer Vision"
+  url: "https://github.com/Satvik713/Corona_Detection/blob/main/Article.ipynb"  # Provide a link if available
+  date: "2025-01-04"
+  summary: "Survey and Comparison of models which can be used for Computer Vision tasks. In this article, I have compared three models: a Simple CNN model, VGG16, and ViT for an image classification task."
 
-- title: "Title of Your Second Article"
-  url: "https://linktothearticle2.com"
-  date: "2024-12-15"
-  journal: "Another Journal"
-  summary: "This article covers the topic of machine learning in healthcare."
+
