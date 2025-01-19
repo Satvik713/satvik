@@ -1,6 +1,11 @@
 # Articles
 # Add your articles below
 
+- title: "Part I: Introduction to MoE (Mixture of Experts) "
+  url: "https://sugar-donkey-69a.notion.site/Part-I-Introduction-to-MoE-Mixture-of-Experts-17ed125210028075ab25c3909a0c80cd"  # Provide a link if available
+  date: "2024-01-19"
+  summary: "First article in the exploration of journey of MoE's from scratch to GPT-4. In Part I: we have explored a basic structure of MoE and their implementation in pure numpy."
+  
 - title: "Timeline of Computer Vision"
   url: "https://github.com/Satvik713/Corona_Detection/blob/main/Article.ipynb"  # Provide a link if available
   date: "2025-01-04"
