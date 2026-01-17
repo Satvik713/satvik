@@ -1,9 +1,14 @@
 # Jobs
 # VP of Global Communications
 
-- company: <a href="https://www.linkedin.com/company/research-commons-ai/" target="_blank">Research Commons</a> 
+- company: <a href="https://www.ey.com/" target="_blank">Ernst & Young</a>
+  position: AI Engineer
+  duration: July, 2025 &mdash; Present
+  summary: Built a LangChain-based agent for Taxmann.ai, integrating LLM-powered retrieval and summarization pipelines to process up to 200-page PDFs in under 12 seconds. Developed an automated BoP generation engine reducing preparation time from 2 hours to 10 minutes, utilized by 500+ CAs. Implemented retrieval pipelines for caselaws and international treaties using Reciprocal Rank Fusion (RRF) across 100K+ legal documents.
+
+- company: <a href="https://www.linkedin.com/company/research-commons-ai/" target="_blank">Research Commons</a>
   position: AI Research Intern
-  duration: Jan, 2025 &mdash; Present
+  duration: Jan, 2025 &mdash; May, 2025
   summary: Working on Agentic AI for autonomous research agents;
   
 - company: College Setu 
